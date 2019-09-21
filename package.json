@@ -1,0 +1,51 @@
+{
+  "name": "Blog Project",
+  "version": "1.0.0",
+  "description": "Blog Project",
+  "main": "script.js",
+  "scripts": {
+    "start": "server.js",
+    "dev": "nodemon server.js",
+    "test": "mocha 'tests/**/*.js' --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ty13r0/blog_project.git"
+  },
+  "author": "Tyler Orsulak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ty13r0/blog_project/issues"
+  },
+  "homepage": "https://github.com/ty13r0/blog_project#readme",
+  "dependencies": {
+    "Faker": "^0.7.2",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "chai-datetime": "^1.5.0",
+    "chai-http": "^4.3.0",
+    "chai-passport-strategy": "^1.0.1",
+    "connect-flash": "^0.1.1",
+    "cors": "^2.8.5",
+    "dependency": "0.0.1",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0",
+    "express-session": "^1.16.2",
+    "i": "^0.3.6",
+    "json-parser": "^3.1.2",
+    "mongod": "^2.0.0",
+    "mongoose": "^5.6.9",
+    "morgan": "^1.9.1",
+    "parse-json": "^5.0.0",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0",
+    "nodemon": "^1.19.1"
+  }
+}

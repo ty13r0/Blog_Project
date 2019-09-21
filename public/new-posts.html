@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset ="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>New Posts</title>
+    <link href ="/newpostsstyle.css" rel="stylesheet" type ="text/css" />
+    <link rel="icon" href="data:,">
+  </head>
+  <body>
+      <nav>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About Me</a></li>
+            <li><a href="/dashboard">Dashboard</a></li>
+            <li><a href="/posts/new">New Post</a></li>
+            <li><a href="/logout">Logout</a></li>
+          </ul>
+        </nav>
+        <div id ="new-entry" class ="hide-display row">
+        <form method ="post" id ="new-post">
+          <fieldset>
+              <legend class ="section-header">Type Magic Below</legend>
+              <label>Date:</label><br>
+              <input type="text" id ="date" name ="date" required><br>
+              <label>Location:</label><br>
+              <input type="text" id ="location" name ="location" required><br>
+              <label>New Post:</label><br>
+              <textarea name ="text " id ="text " rows ="4" cols ="50" required></textarea><br>
+              <button type ="submit" id ="new-submit-button ">Submit</button>
+          </fieldset>
+      </form>
+      </div>
+      <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+      <script type="text/javascript" src="script.js"></script>
+      <footer class ="footer-foot">Tyler Orsulak&copy 2019
+        </footer>      
+      </body>
+      </html>
