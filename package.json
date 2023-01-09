@@ -39,7 +39,7 @@
     "morgan": "^1.9.1",
     "parse-json": "^5.0.0",
     "passport": "^0.4.0",
-    "passport-jwt": "^4.0.0",
+    "passport-jwt": "^4.0.1",
     "passport-local": "^1.0.0",
     "uuid": "^3.3.2"
   },
